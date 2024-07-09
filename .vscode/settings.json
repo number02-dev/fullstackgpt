@@ -1,0 +1,23 @@
+{
+  "python.languageServer": "Pylance",
+  "python.analysis.useLibraryCodeForTypes": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "python.analysis.extraPaths": [
+    "./env/lib/python3.11/site-packages"
+  ],
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.tabCompletion": "on",
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.parameterHints.enabled": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportGeneralTypeIssues": "none"
+  },
+  "notebook.output.wordWrap": true,
+}
