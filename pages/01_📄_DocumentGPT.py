@@ -97,6 +97,7 @@ def load_memory(input):
     return memory.load_memory_variables({})["history"]
 
 def clear_memory():
+    st.session_state["messages"] = []
     memory.clear()
 
 prompt = ChatPromptTemplate.from_messages([
