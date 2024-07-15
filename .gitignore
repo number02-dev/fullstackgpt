@@ -1,5 +1,6 @@
 env/
 .env
+.env_smith
 files/
 db/
 .cache/
